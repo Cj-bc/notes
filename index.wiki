@@ -1,8 +1,13 @@
-= index =
+# index
+
+## study
 
   * [[english/index]]
   * [[world_history/index]]
   * [[japanese_history/index]]
   * [[physics/index]]
-  * [[kobun/kobun]]
+  * [[kobun/index]]
   * [[biology/index]]
+  * [[math_B/index]]
+  * [[chemistry/index]]
+
