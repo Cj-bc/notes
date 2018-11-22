@@ -10,5 +10,3 @@
   * [[biology/index]]
   * [[math_B/index]]
   * [[chemistry/index]]
-
-test
