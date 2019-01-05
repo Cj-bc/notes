@@ -8,5 +8,6 @@
   * [[physics/index]]
   * [[kobun/index]]
   * [[biology/index]]
+  * [math/index](math/index)
   * [[math_B/index]]
   * [[chemistry/index]]
