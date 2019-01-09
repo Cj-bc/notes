@@ -9,5 +9,6 @@
   * [[kobun/index]]
   * [[biology/index]]
   * [math/index](math/index)
+  * [math_3/index](math_3/index)
   * [[math_B/index]]
   * [[chemistry/index]]
