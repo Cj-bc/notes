@@ -3,19 +3,37 @@
 
 # x軸に平行な漸近線
 
-  $\lim{x}{+-∞} y = a$ ならば $y = a$ が漸近線
+  $\lim_{x \to +- \infinity} y = a$ ならば $y = a$ が漸近線
 
 # y軸に平行な漸近線
 
-  $\lim{x}{a-0} y = ∞$, $\lim{x}{a-0} y = -∞$
-  $\lim{x}{a+0} y = ∞$, $\lim{x}{a+0} y = -∞$
+  $\lim_{x \to a-0} y = \infinity$, $\lim_{x \to a-0} y = -\infinity$
+  $\lim_{x \to a+0} y = \infinity$, $\lim_{x \to a+0} y = -\infinity$
   のいづれかが成り立つとき
     $x = a$が漸近線
 
 # x軸にもy軸にも平行でない漸近線
 
-  $\lim{a}{+-∞} {y - (ax -b)} = 0$ ならば $y = ax + b$が漸近線
+  $\lim_{a \to +-\infinity} {y - (ax -b)} = 0$ ならば $y = ax + b$が漸近線
 
 ## 例: 分数関数
 
-  * $y = {x^2 + x + 1}/{x}$の漸近線
+  * $y = \frac{x^2 + x + 1}{x}$の漸近線
+
+    $y = c + 1 + \frac{1}{x}$ より
+      $\lim_{x \to +-\infinity} {y-(x+1)} = 0$
+    となるから、漸近線は $y=x+1$
+
+## 例: 無理関数
+
+  - 漸近線は直線であるから、 $y=ax+b$とおける
+  - a,bを特定すれば良い。
+    $\lim_{x \to \infinity} \frac{y}{x} = a$(**有限確定値**)で
+    $\lim_{x \to \infinity} (y -ax) = b$(**有限確定値**)ならば
+    直線 $y=ax+b$は漸近線
+
+### 略証
+
+    $\x \to \infinity$ の時 $y=ax+b$ならば
+    $\frac{y}{x} = \frac{ax+b}{x} = a + \frac{b}{x} \to a$
+    また $y-ax \to b$
