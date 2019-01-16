@@ -1,0 +1,82 @@
+%title 媒介変数表示された関数のグラフ [β p.7]
+%date 2019-01-16
+
+# 問
+
+{{$
+  x = \cos \theta
+  y = \sin 2\theta
+}}$
+
+# 方針
+
+  1. 対称性
+    $x = f(t)$, $y = g(t)$とする
+    {{$%subnumcases%
+      {}
+      f(-t) = f(t) & \\
+      g(-t) = -g(t) &
+    }}$
+    これはx軸対称
+    
+    {{$%subnumcases%
+      {}
+      f(-t) = -f(t) & \\
+      g(-t) = g(t) &
+    }}$
+    これはy軸対称
+
+  2. 増減表
+
+    1. $\frac{dx}{dt} = 0$, $\frac{dy}{dt} = 0$となるtを求める
+    2. t, $\frac{dx}{dt} = 0$, x, $\frac{dy}{dt} = 0$, y の5行の増減表
+      | \frac{dx}{dt} | + | - |
+      | x             | → | ← |
+
+      | \frac{dy}{dt} | + | - |
+      | y             | ↑ | ↓ |
+
+  3. グラフの図示
+    1. 傾き$\frac{dy}{dx} = \frac{\frac{dy}{dt}}{\frac{dx}{dt}}$を考える
+    2. 座標軸との交点
+    3. $(x,y)$の動きを考えながら図示
+
+      | x      | →  | →  | ←  | ←  |
+      | y      | ↑  | ↓  | ↑  | ↓  |
+      | (x, y) | /^ | \v | ^\ | v/ |
+
+
+# 解
+
+  $\cos \theta$, $\sin 2\theta$の周期はそれぞれ$2\pi$, $\pi$である
+  $x = f(\theta)$, $\y = g(\theta)$とすると
+  
+  {{$
+    f(-\theta) = \cos -\theta  = \cos \theta    = f(\theta)
+    g(-\theta) = \sin -2\theta = -\sin 2\theta  = -g(\theta)
+  }}
+  
+  よって曲線はx軸対称
+  変域は$-\pi \leqq \theta \leqq \pi$なので
+  $0 \leqq \theta \leqq \pi$の範囲で考える
+  
+  {{$
+    \frac{dx}{d\theta} = -\sin\theta, \frac{dy}{d\theta} = 2\cos 2\theta
+  }}$
+  
+  $0 \leqq \theta \leqq \pi$の時
+  
+  {{$
+    \frac{dx}{d\theta} = 0 ... \theta = 0,\pi
+    \frac{dy}{d\theta} = 0 ... \theta = \frac{\pi}{4}, \frac{3}{4}\pi
+  }}$
+  
+  よって$0 \leqq \theta \leqq \pi$における増減表は
+  
+  | $t$             | 0     | ... | $\frac{\pi}{4}$      | ... | $\frac{3}{4}\pi$      | ... | $\pi$ |
+  | $\frac{dx}{dt}$ | 0     | -   | -                    | -   | -                     | -   | 0     |
+  | $x$             | 1     | ←   | $\frac{1}{\sqrt{2}}$ | ←   | $-\frac{1}{\sqrt{2}}$ | ←   | -1    |
+  | $\frac{dy}{dt}$ | +     | +   | 0                    | -   | 0                     | +   | +     |
+  | $y$             | 0     | ↑   | 1                    | ↓   | -1                    | ↑   | 0     |
+  | $\frac{dy}{dx}$ |       | -   |                      | +   |                       | -   |       |
+  | $(x, y)$        | (1,0) | ^\  |                 |     |                       |     |       |
