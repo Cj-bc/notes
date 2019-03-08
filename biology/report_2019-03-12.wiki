@@ -69,6 +69,7 @@
 ### attack to negative
 
 ### attack to affirmative
+ge
 
 
 
