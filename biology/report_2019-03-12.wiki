@@ -55,28 +55,51 @@
 
 ## 2.農家は農作物を育てるために一生懸命働く。収穫が終わった時に、来年のために撒くべき種子をとっておくなど、収穫した種子を好きなように扱う権利が農家にはあるだろうか
 
-### thinking...
+### Thinking...
 
 - 元の種子は農家が「買った」ものであり所有権は既に移っているはずで、そこから育てた種子の所有権も農家にあるはず
 
-### affirmative
+#### Affirmative
 - 自ら育てた作物の「成果物」なので当然農家に権利がある。
 - もともと作ったのは企業かもしれないが、既に購入しているから農家の所有物である。
 
-### negative
+#### Negative
 - 元の種子は企業のものであり、「元の売り物の種子と見分けがつかず、偽って販売されたると困る上、盗まれたりしても見分けがつかない」から農家に権利はない。
 
-### attack to negative
+#### Attack to negative
+- 企業の利益の為に農家に不利益を被らせることはできるべきではない
 
-### attack to affirmative
+#### Attack to affirmative
+- 「成果物」だとしても、それの元となった種子は企業のものなので農家に権利はない
+- 購入したのは種子だけであり、「種子」自体の権利は企業が所有している
+
+#### Summary of affirmative
+
+
+#### Summary of negative
 
 
 
 
 
+## 3. 地球上の10/60億人は栄養不足である現在、"ターミネーター遺伝子"は遺伝子工学の賢い使い道だと思うか？
 
+### Thinking
+
+#### Affirmative
+
+#### Negative
+- 栄養不足解消の為には食料を増やす
+
+#### Attack to negative
+
+#### Attack to affirmative
+
+#### Summary of affirmative
+
+#### Summary of negative
 
 # 参考URL
-
+- [タネは誰のもの？「種子法」廃止で日本の食はどう変わるのか](https://kokocara.pal-system.co.jp/2017/05/29/seed-yoshiaki-nisikawa/)
 - [Ethical issues in use of terminator seed technology](https://www.researchgate.net/publication/228858019_Ethical_issues_in_the_use_of_the_terminator_seed_technology)
 - [Farmers right.org](http://www.farmersrights.org)
