@@ -12,3 +12,4 @@
   * [math_3/index](math_3/index)
   * [[math_B/index]]
   * [[chemistry/index]]
+  * [[PE/index]]
