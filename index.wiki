@@ -13,3 +13,4 @@
   * [[math_B/index]]
   * [[chemistry/index]]
   * [[PE/index]]
+  * [music/index](music/index)
